@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import someByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some-by-right@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-some-by-right/tags). For example,
+
+```javascript
 import someByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some-by-right@v0.2.2-esm/index.mjs';
 ```
 
@@ -180,7 +185,7 @@ var mean = context.sum / context.count;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import someByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some-by-right@v0.2.2-esm/index.mjs';
+import someByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some-by-right@esm/index.mjs';
 
 function threshold( value ) {
     return ( value > 0.95 );
